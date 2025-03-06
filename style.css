@@ -1,0 +1,30 @@
+/* esto es un comentario de una o varias lineas */
+body {
+    background-color: gray;
+}
+.ParrafoDiferente {
+    color: blue;
+}
+.negritaSemantica {
+    color: aquamarine;
+}
+/* colore en hexadecimal*/
+.negritaSemanticas {
+    color: #c39bd3;
+}
+.PNa    {
+    color: #853ca1;
+}
+.colorRGB{
+    color: rgb(red, green, blue);
+}
+.divRGBA{
+    width: 50%; background-color: rgba(98, 255, 0, 0.467);
+}
+.divHSL{
+    width: 50%;
+    background-color: hsla(221, 100%, 50%);
+    padding: 20px;
+    margin-top:20px;
+    border-radius: 20px;
+}

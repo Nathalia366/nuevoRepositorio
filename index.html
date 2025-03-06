@@ -4,6 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Página Principal</title>
+	
+	<style>
+		p{
+			/* los colores de las letras, colores aplicar al texto */
+			color: yellow;
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
+
+
+
 </head>
 <body>
 
@@ -23,29 +34,47 @@
 		<img src="img/btn-servicios.png" alt="no_carga_mensaje" title="Ir a servicios" width="40px">
 	</a>
 
-<p> Página Principal Grupo Lunes</p>
+<p class="ParrafoDiferente"> Página Principal Grupo Lunes</p>
+
+<div class="divRGBA"  >
+	<p style="color: white;">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus incidunt 
+		officia numquam unde sapiente quos pariatur similique nihil aliquid tempora 
+		impedit assumenda nemo voluptatum ipsam ut hic, exercitationem deserunt architecto.
+	</p>
+</div>
+
+<div class="divHSL"  >
+	<p style="color: white;">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus incidunt 
+		officia numquam unde sapiente quos pariatur similique nihil aliquid tempora 
+		impedit assumenda nemo voluptatum ipsam ut hic, exercitationem deserunt architecto.
+	</p>
+</div>
 <!-- Etiquetas de texto -->
 <p>
 	
-	Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Distinctio magnam quasi aperiam labore, voluptate culpa quidem aliquam, in rerum deleniti tempora, atque? Debitis fugiat quia obcaecati animi illo consequuntur doloribus.
+	Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Distinctio magnam quasi aperiam labore, 
+	voluptate culpa quidem aliquam, in rerum deleniti tempora, atque? Debitis fugiat quia obcaecati animi 
+	illo consequuntur doloribus.
 
 
 </p>
 
 <!-- Negrita sin peso semántico -->
 
-<b>Negrita</b>
+<b class="ParrafoDiferente">Negrita</b>
 <br>
 
 <!-- Negrita con peso semántico -->
-<strong>Negrita con peso semántico</strong>
+<strong class="negritaSemantica">Negrita con peso semántico</strong>
 <br>
 
 <br>
 
 
-<p> 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<p class="PNa"> 
+clase pNa Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -54,7 +83,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 <br>
 <!-- Cursiva -->
-<i> Texto en cursiva</i>
+<i class="colorRBG"> Texto en cursiva</i>
 <br>
 <!-- Cursiva con semántica -->
 <em> Cursiva con peso semántico</em>
@@ -64,7 +93,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <!-- Fórmula matemática -->
 <br>
-<p> F <sub>(x)</sub> = 2X <sup>3</sup> - 4X </p>
+<p class="ParrafoDiferente"> F <sub>(x)</sub> = 2X <sup>3</sup> - 4X </p>
 <br>
 <!-- Texto marcado -->
 <mark>Texto marcado</mark>
